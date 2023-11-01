@@ -91,7 +91,7 @@ header {
   justify-content: space-between;
 }
 
-.left__bg-pic {
+.header__bg-pic {
   position: absolute;
   left: 436px;
   top: 0;
@@ -106,14 +106,14 @@ header {
   background-size: contain;
 }
 
-.left__bg-pic::after {
+.header__bg-pic::after {
   content: url(./assets/icons/play.png);
   position: absolute;
   top: 42%;
   left: 43%;
 }
 
-.left {
+.header__left {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -129,7 +129,7 @@ header {
   width: 470px;
 }
 
-.left__title-highlight {
+.header__title-highlight {
   background-color: var(--Accent-color-a);
   color: var(--Background);
 
@@ -138,7 +138,7 @@ header {
   padding-left: 15px;
 }
 
-.right {
+.header__right {
   background-color: var(--Primary-color);
   position: relative;
   z-index: 2;
@@ -148,27 +148,27 @@ header {
   padding-left: 56px;
 }
 
-.right__menu {
+.header__menu {
   display: flex;
   gap: 25px;
   flex-direction: column;
   margin-top: 120px;
 }
 
-.right__menu p {
+.header__menu p {
   color: var(--Light-gray);
 }
 
-.right__menu p:first-child {
+.header__menu p:first-child {
   font-weight: 700;
   margin-bottom: 5px;
 }
 
-.cart-items-amount {
+.header__cart-items-amount {
   position: relative;
 }
 
-.cart-items-amount::after {
+.header__cart-items-amount::after {
   content: "2";
   background-color: var(--Accent-color-a);
   width: 20px;
@@ -249,10 +249,12 @@ header {
 }
 
 .favorite__right {
+  background-color: var(--Primary-color);
   position: absolute;
   top: 0;
   left: 0;
   width: 384px;
+  height: 100%;
   padding: 0;
 }
 
@@ -352,13 +354,6 @@ header {
   z-index: 2;
   margin-top: 119px;
   margin-left: 130px;
-}
-
-.best-gift__right {
-  position: absolute;
-  right: 0;
-  top: 0;
-  background-color: #fff;
 }
 
 .best-gift__giftset {
@@ -496,6 +491,8 @@ header {
 }
 
 .combo__right {
+  background-color: var(--Primary-color);
+  height: 100%;
   position: absolute;
   top: 0;
   right: 0;
