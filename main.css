@@ -25,6 +25,9 @@ h1 {
   font-size: 54px;
   font-weight: 900;
   line-height: 70px;
+  position: absolute;
+  bottom: 64px;
+  left: -235px;
 }
 
 h2 {
@@ -91,9 +94,16 @@ header {
   justify-content: space-between;
 }
 
+.header__img {
+  width: 109.5px;
+  height: 36.5px;
+  margin-top: 75px;
+  margin-left: 10%;
+}
+
 .header__bg-pic {
   position: absolute;
-  left: 436px;
+  right: 275px;
   top: 0;
   z-index: 1;
 
@@ -186,7 +196,6 @@ header {
 }
 
 .personalized-coffee {
-  width: 1400px;
   height: 600px;
   display: flex;
   justify-content: center;
@@ -222,7 +231,6 @@ header {
 }
 
 .favorite {
-  width: 1400px;
   height: 894px;
   position: relative;
 
@@ -338,10 +346,9 @@ header {
 }
 
 .best-gift__wrapper {
-  width: 1076px;
+  width: 59%;
   height: 100%;
   background-color: var(--Light-gray);
-  position: relative;
 }
 
 .best-gift__header {
@@ -350,8 +357,11 @@ header {
 }
 
 .best-gift__img {
-  position: relative;
+  position: absolute;
+  left: -398px;
+  top: -65px;
   z-index: 2;
+
   margin-top: 119px;
   margin-left: 130px;
 }
@@ -366,7 +376,7 @@ header {
   height: 460px;
 
   position: absolute;
-  left: 386px;
+  right: 20%;
   top: 216px;
 }
 
@@ -445,6 +455,7 @@ header {
 .combo__wrapper {
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
   gap: 64px;
 }
 
@@ -453,7 +464,7 @@ header {
   gap: 30px;
   position: relative;
   z-index: 3;
-  margin-left: 385px;
+  margin-left: 130px;
 }
 
 .combo__card {
